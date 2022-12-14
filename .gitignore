@@ -1,5 +1,3 @@
-!hello.log
-!hello.py.log
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -129,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+!hello.log
+!hello.py.log
