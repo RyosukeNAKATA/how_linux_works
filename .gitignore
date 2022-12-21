@@ -131,3 +131,4 @@ dmypy.json
 !hello.log
 !hello.py.log
 !sar.log
+!sar_inf_loop.log
