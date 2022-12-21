@@ -135,3 +135,4 @@ dmypy.json
 !sar_syscall_inf_loop.log
 !echo.log
 !cat.log
+!python3.log
