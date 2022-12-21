@@ -1,0 +1,5 @@
+Linux 6.0.12-arch1-1 (archlinux) 	12/21/22 	_x86_64_	(4 CPU)
+
+17:23:42        CPU     %user     %nice   %system   %iowait    %steal     %idle
+17:23:43          0     62.00      0.00     38.00      0.00      0.00      0.00
+Average:          0     62.00      0.00     38.00      0.00      0.00      0.00
