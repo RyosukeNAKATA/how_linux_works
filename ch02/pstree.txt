@@ -1,0 +1,25 @@
+systemd-+-dbus-daemon
+        |-fcitx5---{fcitx5}
+        |-fish---alacritty-+-fish---tmux: client
+        |                  `-12*[{alacritty}]
+        |-i3bar---python3---2*[{python3}]
+        |-iwd
+        |-lightdm-+-Xorg---10*[{Xorg}]
+        |         |-lightdm-+-i3
+        |         |         `-2*[{lightdm}]
+        |         `-2*[{lightdm}]
+        |-picom
+        |-polkitd---2*[{polkitd}]
+        |-rtkit-daemon---2*[{rtkit-daemon}]
+        |-systemd-+-(sd-pam)
+        |         |-dbus-daemon
+        |         `-pulseaudio-+-gsettings-helpe---3*[{gsettings-helpe}]
+        |                      `-{pulseaudio}
+        |-systemd-journal
+        |-systemd-logind
+        |-systemd-network
+        |-systemd-resolve
+        |-systemd-timesyn---{systemd-timesyn}
+        |-systemd-udevd
+        `-tmux: server---fish-+-pstree
+                              `-{fish}
