@@ -1,2 +1,2 @@
-einhjar     3666  0.0  0.0   7532  3940 pts/1    S    17:23   0:00 bash
-einhjar     3840  0.0  0.0   6292  1700 pts/1    S+   17:24   0:00 grep bash
+einhjar     4205  0.0  0.0   7532  3820 pts/1    S    17:26   0:00 bash
+einhjar     4217  0.0  0.0   6292  1648 pts/1    S+   17:26   0:00 grep bash
